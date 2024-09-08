@@ -13,76 +13,149 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textView15"
-            android:layout_width="56dp"
-            android:layout_height="33dp"
-            android:text="0"
+            android:id="@+id/poststext"
+            android:layout_width="54dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="45dp"
+            android:text="post"
             android:textAlignment="center"
-            android:textColor="#7EE138"
-            android:textSize="16sp"
-            tools:layout_editor_absoluteX="302dp"
-            tools:layout_editor_absoluteY="319dp" />
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/poststext"
+            app:layout_constraintTop_toBottomOf="@+id/callicon" />
 
         <TextView
-            android:id="@+id/textView15"
-            android:layout_width="56dp"
-            android:layout_height="33dp"
-            android:text="0"
+            android:id="@+id/poststext"
+            android:layout_width="68dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="16dp"
+            android:text="products"
             android:textAlignment="center"
-            android:textColor="#7EE138"
-            android:textSize="16sp"
-            tools:layout_editor_absoluteX="180dp"
-            tools:layout_editor_absoluteY="319dp" />
+            android:textColor="#FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chatbutton" />
 
         <TextView
-            android:id="@+id/textView15"
-            android:layout_width="56dp"
-            android:layout_height="33dp"
+            android:id="@+id/poststext"
+            android:layout_width="68dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="16dp"
+            android:text="blogs"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            app:layout_constraintStart_toEndOf="@+id/poststext"
+            app:layout_constraintTop_toBottomOf="@+id/chatbutton" />
+
+        <TextView
+            android:id="@+id/orderstext"
+            android:layout_width="54dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="55dp"
+            android:text="orders"
+            android:textAlignment="center"
+            android:textColor="#AECCDD"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/connectiontext"
+            app:layout_constraintTop_toBottomOf="@+id/ordersnumber" />
+
+        <TextView
+            android:id="@+id/poststext"
+            android:layout_width="54dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="60dp"
+            android:text="posts"
+            android:textAlignment="center"
+            android:textColor="#AECCDD"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/postsnumber" />
+
+        <TextView
+            android:id="@+id/ordersnumber"
+            android:layout_width="48dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="61dp"
             android:text="0"
             android:textAlignment="center"
-            android:textColor="#7EE138"
-            android:textSize="16sp"
-            tools:layout_editor_absoluteX="60dp"
-            tools:layout_editor_absoluteY="319dp" />
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/connectionsnumber"
+            app:layout_constraintTop_toTopOf="@+id/connectionsnumber" />
+
+        <TextView
+            android:id="@+id/connectionsnumber"
+            android:layout_width="56dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="8dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/postsnumber"
+            app:layout_constraintTop_toBottomOf="@+id/biotext" />
+
+        <TextView
+            android:id="@+id/postsnumber"
+            android:layout_width="56dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="60dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/connectionsnumber" />
 
         <ImageButton
             android:id="@+id/callicon"
-            android:layout_width="61dp"
-            android:layout_height="47dp"
+            android:layout_width="62dp"
+            android:layout_height="49dp"
             android:background="@drawable/rounded_dashboard"
             android:backgroundTint="#23AB49"
             android:src="@drawable/callicon"
-            tools:layout_editor_absoluteX="331dp"
-            tools:layout_editor_absoluteY="404dp" />
+            tools:layout_editor_absoluteX="333dp"
+            tools:layout_editor_absoluteY="392dp" />
 
         <TextView
             android:id="@+id/farmername"
             android:layout_width="207dp"
             android:layout_height="32dp"
-            android:layout_marginStart="180dp"
-            android:layout_marginTop="228dp"
+            android:layout_marginStart="181dp"
+            android:layout_marginEnd="24dp"
             android:singleLine="true"
             android:text="by farmer name"
             android:textAlignment="textEnd"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/farmname" />
 
         <TextView
             android:id="@+id/farmname"
             android:layout_width="264dp"
             android:layout_height="40dp"
-            android:layout_marginStart="128dp"
-            android:layout_marginTop="192dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="19dp"
             android:singleLine="true"
             android:text="navneet singh ghusain"
             android:textColor="#FDFCFC"
             android:textSize="25dp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/circular_profile"
+            app:layout_constraintTop_toBottomOf="@+id/bg_img" />
 
         <ImageView
             android:id="@+id/bg_img"
@@ -109,45 +182,55 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/biotext"
             android:layout_width="364dp"
             android:layout_height="59dp"
             android:layout_marginStart="24dp"
-            android:layout_marginTop="260dp"
+            android:layout_marginEnd="23dp"
             android:text="Hello I'am a farmer I grow Flana things I do hen ten"
             android:textColor="#AECCDD"
             android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/farmername" />
 
-        <Button
-            android:id="@+id/button"
+        <ToggleButton
+            android:id="@+id/followbutton"
             android:layout_width="223dp"
             android:layout_height="47dp"
-            android:layout_marginTop="52dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_dashboard"
             android:backgroundTint="#23AB49"
-            android:text="Follow"
+            android:textOff="Follow"
+            android:textOn="Followed"
             android:textSize="20sp"
-            app:layout_constraintTop_toBottomOf="@+id/textView15"
-            tools:layout_editor_absoluteX="25dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/poststext" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/chatbutton"
             android:layout_width="60dp"
             android:layout_height="47dp"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/rounded_dashboard"
             android:backgroundTint="#23AB49"
             android:src="@drawable/chaticon"
-            app:layout_constraintStart_toEndOf="@+id/button"
-            tools:layout_editor_absoluteY="404dp" />
+            app:layout_constraintStart_toEndOf="@+id/followbutton"
+            app:layout_constraintTop_toBottomOf="@+id/connectiontext" />
+
+        <TextView
+            android:id="@+id/connectiontext"
+            android:layout_width="83dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="56dp"
+            android:text="connections"
+            android:textAlignment="center"
+            android:textColor="#AECCDD"
+            app:layout_constraintStart_toEndOf="@+id/poststext"
+            app:layout_constraintTop_toBottomOf="@+id/connectionsnumber" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
 
 </FrameLayout>
