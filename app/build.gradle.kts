@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.farmersapplication"
+    namespace = "com.annadata.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.farmersapplication"
+        applicationId = "com.annadata.app"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -40,6 +40,8 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.circleimageview)
+    implementation(libs.android.country.picker)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

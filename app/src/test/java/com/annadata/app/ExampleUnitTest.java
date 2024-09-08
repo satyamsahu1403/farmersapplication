@@ -1,4 +1,4 @@
-package com.example.farmersapplication;
+package com.annadata.app;
 
 import org.junit.Test;
 

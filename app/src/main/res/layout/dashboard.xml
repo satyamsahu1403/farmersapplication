@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D1F29">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="142dp"
+        android:layout_height="28dp"
+        android:text="category"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="142dp"
+        android:layout_height="28dp"
+        android:text="category"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="519dp" />
+
+    <SearchView
+        android:layout_width="386dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/searchviewbg"
+        android:backgroundTint="#1B3848"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search Here..."
+        app:circularflow_radiusInDP="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+    </SearchView>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="394dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="75dp"
+        android:backgroundTint="#0D1F29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/group16" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="142dp"
+        android:layout_height="28dp"
+        android:text="category"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="0dp"
+            android:layout_height="74dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="401dp"
+            tools:layout_editor_absoluteY="16dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

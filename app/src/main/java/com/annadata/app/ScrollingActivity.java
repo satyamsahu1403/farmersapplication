@@ -1,4 +1,4 @@
-package com.example.farmersapplication;
+package com.annadata.app;
 
 import android.os.Bundle;
 
@@ -11,7 +11,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
 
-import com.example.farmersapplication.databinding.ActivityScrollingBinding;
+import com.annadata.app.databinding.ActivityScrollingBinding;
 
 public class ScrollingActivity extends AppCompatActivity {
 
