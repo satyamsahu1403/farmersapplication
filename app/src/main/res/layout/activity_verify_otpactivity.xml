@@ -85,7 +85,7 @@
         app:strokeWidth="2dp" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/otptext"
         android:layout_width="286dp"
         android:layout_height="86dp"
         android:layout_marginStart="61dp"
