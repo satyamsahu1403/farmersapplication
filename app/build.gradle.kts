@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -42,7 +43,11 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.circleimageview)
     implementation(libs.android.country.picker)
+    implementation(libs.firebase.auth)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    implementation("com.github.mukeshsolanki.android-otpview-pinview:otpview:3.1.0")
+
 }
