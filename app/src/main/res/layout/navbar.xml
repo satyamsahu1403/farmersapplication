@@ -4,11 +4,115 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/rounded_dashboard"
+    android:background="#0D1829"
     android:backgroundTint="#0D1829">
 
+    <TextView
+        android:id="@+id/productstext"
+        android:layout_width="142dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="253dp"
+        android:layout_marginBottom="184dp"
+        android:text="products"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bestdellertext"
+        android:layout_width="142dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="253dp"
+        android:layout_marginBottom="319dp"
+        android:text="bestseller"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/categorytext"
+        android:layout_width="142dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="253dp"
+        android:layout_marginBottom="440dp"
+        android:text="category"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#0D1829"
+        app:itemHorizontalTranslationEnabled="false"
+        app:itemIconSize="@dimen/navbar_icon"
+        app:itemIconTint="@color/white"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom" />
+
+    <ImageView
+        android:id="@+id/bellicon"
+        android:layout_width="30dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="19dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bell" />
+
+    <ImageView
+        android:id="@+id/searchicon"
+        android:layout_width="27dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/searchlens" />
+
+    <ImageButton
+        android:id="@+id/banner"
+        android:layout_width="408dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#0D1829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/group16" />
+
+    <ImageView
+        android:id="@+id/annadatatext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="677dp"
+        android:backgroundTint="#0D1829"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/annadata" />
+
     <FrameLayout
-        android:id="@+id/frameLayout"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -18,17 +122,5 @@
         app:layout_constraintTop_toTopOf="parent">
 
     </FrameLayout>
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#0D1829"
-        app:itemHorizontalTranslationEnabled="false"
-        app:itemIconTint="@color/white"
-        app:labelVisibilityMode="unlabeled"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
